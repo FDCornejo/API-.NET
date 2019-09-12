@@ -5,11 +5,10 @@ using System.Threading.Tasks;
 
 namespace WebApplication8.Models
 {
-    public class PostModel
+    public class ComentModel
     {
         public int Id { get; set; }
 
-        public string postData { get; set; }
-
+        public string theComment { get; set; }
     }
 }

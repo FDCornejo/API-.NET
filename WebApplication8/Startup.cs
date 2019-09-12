@@ -28,6 +28,10 @@ namespace WebApplication8
             services.AddMvc();
             services.AddSingleton<UserService>();
             services.AddSingleton<UserRepository>();
+            services.AddSingleton<PostService>();
+            services.AddSingleton<PostRepository>();
+            services.AddSingleton<ComentService>();
+            services.AddSingleton<ComentRepository>();
             //servoces.AddSingleton<reposito servico>();
         }
 
